@@ -9,9 +9,6 @@ from store.models import Category, Product
 from store.views import all_products
 
 
-
-
-
 class TestViewResponses(TestCase):
     def setUp(self):
         self.c = Client()
